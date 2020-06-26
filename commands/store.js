@@ -6,7 +6,7 @@ exports.run = async (client, message, args, config) => {
 
 
      
-    let embed = new Discord.RichEmbed()
+    let embed = new Discord.MessageEmbed()
     .setTitle(`${client.user.tag} Store!`)
     .setDescription('**Use +buy <item> to buy!**')
     .addField(`Moderator`, '`700$`\nGives you the moderator role!')
